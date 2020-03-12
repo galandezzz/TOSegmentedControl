@@ -403,7 +403,7 @@ static CGFloat const kTOSegmentedControlDirectionArrowMargin = 2.0f;
     [self.separatorViews removeAllObjects];
 
     // Delete the items array
-    self.items = nil;
+    _items = nil;
 }
 
 #pragma mark Enabled/Disabled
